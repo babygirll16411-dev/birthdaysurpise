@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Something BIG is Coming 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Something BIG is Coming 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div class="emoji-layer"></div>
+
+<!-- PAGE 1 -->
+<section class="page page1 active">
+  <div class="floating"></div>
+
+  <h1 class="big-text">✨ Something BIG is Coming ✨</h1>
+  <h2 class="glow-text">🎂 Birthday Surprise 🎂</h2>
+
+  <p class="lock-text">🔒 Locked till <b>4 June 2026</b></p>
+
+  <button class="main-btn" onclick="goToPage(2)">🔐 Locked</button>
+</section>
+
+<!-- PAGE 2 -->
+<section class="page page2">
+  <div class="meter-box">
+    <h2>Measuring Cuteness… 💕</h2>
+
+    <div class="meter">
+      <div class="meter-fill" id="meterFill"></div>
+    </div>
+
+    <div class="percentage" id="percentage">0%</div>
+
+    <div class="warning" id="warning">⚠ TOO CUTE TO HANDLE ⚠</div>
+
+    <button class="main-btn" onclick="goToPage(3)">💖 See More 💖</button>
+  </div>
+</section>
+
+<!-- PAGE 3 -->
+<section class="page page3">
+  <h2 class="just-for-you">💗 Just for you 💗</h2>
+  <p class="tap-text">Tap each one to reveal</p>
+
+  <div class="reason" onclick="reveal(this)">You make my world brighter ✨</div>
+  <div class="reason" onclick="reveal(this)">Your smile is my favorite thing 💖</div>
+  <div class="reason" onclick="reveal(this)">You understand me like no one else 🫶</div>
+  <div class="reason" onclick="reveal(this)">You make ordinary days special 🌸</div>
+  <div class="reason" onclick="reveal(this)">You are my safe place 💞</div>
+
+  <h3 class="final-glow">I love everything about you 💗</h3>
+
+  <button class="main-btn" onclick="goToPage(4)">🌸 Next 🌸</button>
+</section>
+
+<!-- PAGE 4 -->
+<section class="page page4">
+  <div class="floating"></div>
+
+  <h2 class="game-title">Catch the Hearts 💖</h2>
+  <p class="game-text">Tap 8 little hearts to unlock our next memory 💞</p>
+
+  <p class="counter">Hearts: <span id="caught">0</span>/8</p>
+
+  <button class="main-btn" onclick="startGame()">Start Game 💗</button>
+
+  <div id="gameArea"></div>
+
+  <div id="gameDone" class="game-done">
+    <h2>Perfect! 🥺💖</h2>
+    <p>Yayyy! You caught them all, cutiepie 💕</p>
+    <button class="main-btn">Continue to Gallery 📸</button>
+  </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
