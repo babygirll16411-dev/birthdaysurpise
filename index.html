@@ -1,3 +1,14 @@
+<script>
+  const unlockDate = new Date("2026-06-04T00:00:00");
+  const now = new Date();
+
+  if (now < unlockDate) {
+    document.write(`
+      <h1>🎁 Something BIG is coming 🎁</h1>
+      <p>This surprise will unlock on 4 June 2026 💖</p>
+    `);
+  }
+</script>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,3 +96,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
